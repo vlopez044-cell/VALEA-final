@@ -12,7 +12,7 @@ background:#ff2d96;
 /* HERO */
 .hero{
 height:80vh;
-background:url("https://images.unsplash.com/photo-1520975958223-8b0c3c7c9b6c?q=80&w=1600") center/cover;
+background:url("https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=2000&q=80") center/cover;
 display:flex;
 align-items:center;
 justify-content:center;
@@ -88,4 +88,13 @@ right:0;
 display:flex;
 justify-content:space-between;
 margin-bottom:10px;
+}
+
+.card-body h5{
+color:#ff2d96;
+font-weight:bold;
+}
+
+.card-body p{
+color:#444;
 }
